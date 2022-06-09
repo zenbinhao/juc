@@ -11,7 +11,7 @@ public class MyDefindThreadPool {
         // 决定这个程序的最大线程数 两种方式
         //1. cpu密集型
         //2. io密集型
-        AbstractExecutorService abstractExecutorService = new ThreadPoolExecutor(
+            AbstractExecutorService abstractExecutorService = new ThreadPoolExecutor(
                 4,
                 4,
                 3L,
